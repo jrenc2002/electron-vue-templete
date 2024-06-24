@@ -23,8 +23,11 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
     "@electron-toolkit/utils": "^3.0.0",
+    "@vitejs/plugin-vue": "^5.0.5",
     "better-sqlite3": "^9.5.0",
-    "drizzle-orm": "^0.30.9"
+    "drizzle-orm": "^0.30.9",
+    "vue": "3.4.30",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^2.0.0",
@@ -41,8 +44,6 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.2.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
   }
