@@ -6,7 +6,7 @@
         <button type="submit">add</button>
       </form>
     </div>
-    <div v-for="post in postList" :key="post.id">
+    <div class="bg-blue-400 m-2" v-for="post in postList" :key="post.id">
       {{ post.title }}
     </div>
   </div>
