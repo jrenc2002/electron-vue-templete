@@ -16,8 +16,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { database } from '../db';
-import { posts } from '../../../db/schema';
+import { database } from '@/db';
+import { posts } from '@base/db/schema';
 import {useAppGlobal} from '@/store/AppGlobal'
 const postList = ref([]);
 const title = ref('');
