@@ -1,19 +1,17 @@
 import { createApp } from 'vue'
-// import { createPinia } from 'pinia'
+import { createPinia } from 'pinia'
 import App from './App.vue'
 import '../src/index.css'
-// import router from './router'
+import router from './router'
 // import VXETable from 'vxe-table'
 // import 'xe-utils'
 // import 'vxe-table/lib/style.css'
 
-// const pinia = createPinia()
-
 // import 'element-plus/dist/index.css';
 
 const app = createApp(App)
-// app.use(createPinia())
-// app.use(router)
+app.use(createPinia())
+app.use(router)
 // app.use(VXETable);
 // 注册elementplus图标
 

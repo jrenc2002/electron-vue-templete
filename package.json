@@ -26,6 +26,7 @@
     "@vitejs/plugin-vue": "^5.0.5",
     "better-sqlite3": "^9.5.0",
     "drizzle-orm": "^0.30.9",
+    "pinia": "^2.1.7",
     "vue": "3.4.30",
     "vue-router": "4"
   },
@@ -37,6 +38,7 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vue/cli-service": "^5.0.8",
     "autoprefixer": "^10.4.19",
     "drizzle-kit": "^0.20.17",
     "electron": "^28.2.0",
