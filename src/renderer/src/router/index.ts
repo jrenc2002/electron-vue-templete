@@ -3,16 +3,26 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/homeview'
+    redirect: '/login-view'
   },
   {
-    path: '/homeview',
+    path: '/home-view',
     name: 'HomeView',
     meta: {
       title: '首页'
     },
     // @ts-ignore:编译器弱智
     component: () => import(/* webpackChunkName: "login" */ '@/view/HomeView.vue'),
+    children: []
+  },
+  {
+    path: '/login-view',
+    name: 'LoginView',
+    meta: {
+      title: '首页'
+    },
+    // @ts-ignore:编译器弱智
+    component: () => import(/* webpackChunkName: "login" */ '@/view/LoginView.vue'),
     children: []
   }
 ]

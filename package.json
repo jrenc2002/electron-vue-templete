@@ -23,6 +23,7 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
     "@electron-toolkit/utils": "^3.0.0",
+    "@heroicons/vue": "^2.1.4",
     "@vitejs/plugin-vue": "^5.0.5",
     "better-sqlite3": "^9.5.0",
     "drizzle-orm": "^0.30.9",

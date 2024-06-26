@@ -11,6 +11,9 @@ dependencies:
   '@electron-toolkit/utils':
     specifier: ^3.0.0
     version: 3.0.0(electron@28.3.1)
+  '@heroicons/vue':
+    specifier: ^2.1.4
+    version: 2.1.4(vue@3.4.30)
   '@vitejs/plugin-vue':
     specifier: ^5.0.5
     version: 5.0.5(vite@5.2.10)(vue@3.4.30)
@@ -1140,6 +1143,14 @@ packages:
     dependencies:
       '@hapi/hoek': 9.3.0
     dev: true
+
+  /@heroicons/vue@2.1.4(vue@3.4.30):
+    resolution: {integrity: sha512-wykVSZ/fqEG49lIeHgFGT9TCvBw9THuRTtA/sPp7FVk3iBob/HcmitMcLDwtXOW82TXb38HeLRl1/pcElPeSdg==}
+    peerDependencies:
+      vue: '>= 3'
+    dependencies:
+      vue: 3.4.30(typescript@5.4.5)
+    dev: false
 
   /@hono/node-server@1.11.0:
     resolution: {integrity: sha512-TLIJq9TMtD1NEG1mVoqNUn1Ita0qSaB5XboZErjFBcO/GJYXwWY4dVdTi9G0lbxtu0x+hJXDItcLaFHb7rlFTw==}
